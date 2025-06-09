@@ -1,9 +1,101 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module I - Deep Dive</title>
+  <link rel="stylesheet" href="module-style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fffaf3;
+      color: #2b2b2b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
-<head></head>
+    .container {
+      width: 90%;
+      max-width: 800px;
+      background-color: #fff7e6;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
 
+    header h1 {
+      font-size: 2.5rem;
+      color: #1a237e;
+      margin-bottom: 1.5rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      color: #3e2723;
+      margin-bottom: 1rem;
+    }
+
+    section p, section ul {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #4e342e;
+    }
+
+    .media-placeholder {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .media-placeholder img, .media-placeholder video {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
 <body>
-    <h1>Module one</h1>
-</body>
+  <div class="container">
+    <header>
+      <h1>Module I: Deep Dive</h1>
+    </header>
 
+    <section class="intro">
+      <h2>Introduction</h2>
+      <p>This section gives a brief overview of the topics covered in Module I.</p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects We Did</h2>
+      <div class="media-placeholder">
+        <img src="placeholder-image.jpg" alt="Project Screenshot Placeholder">
+        <video controls>
+          <source src="placeholder-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>Project summaries and insights go here. You can describe the tasks, tools used, and key learning moments.</p>
+    </section>
+
+    <section class="takeaways">
+      <h2>My Takeaways</h2>
+      <ul>
+        <li>Learned how to approach new technical concepts methodically.</li>
+        <li>Improved teamwork and collaboration during project execution.</li>
+        <li>Got hands-on with tools that I hadn’t used before.</li>
+      </ul>
+    </section>
+  </div>
+</body>
 </html>
