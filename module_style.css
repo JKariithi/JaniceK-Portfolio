@@ -48,8 +48,8 @@ body {
   
 
 
-  section p, section ul {
-    font-size: 1rem;
+  section p, section ul, section ol {
+    font-size: 1.2rem;
     line-height: 1.6;
     color: #00070e;
     text-align: left;
@@ -92,8 +92,4 @@ tr:nth-child(even) {
   content: "";
   clear: both;
   display: table;
-}
-
-section ol{
-  text-align: left;
 }
