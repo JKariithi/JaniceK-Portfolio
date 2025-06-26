@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module V</title>
+  <link rel="stylesheet" href="../module_style.css">    
+</head>
+<body> 
+  <div class="container">
+    <header>
+      <h1>Sensors and Actuators</h1>
+    </header>
+
+    <section class="projects">
+       <div class="media-placeholder">
+        <img src="sensor_actuator.jpeg" alt="Sensor Actuator flow" height="300px">
+      </div>
+      <h2>Sensors</h2>
+     <p><b>Sensors</b> are devices that detect and measure physical 
+      properties such as temperature, pressure, light, or motion and convert them 
+      into signals that can be read or recorded. They serve as the link between the physical
+       world and electronic systems</p>
+      <h3>Sensor Characteristics</h3>
+      <p> <b>Static characteristics</b> of sensors describe how a sensor 
+        responds to constant or slowly changing inputs. These include properties like:
+        </p>
+        <p><ul>
+        <li><em>accuracy</em>
+        (how close the reading is to the actual value),</li> <li> <em>precision</em> (repeatability of measurements)</li>
+        <li> <em>sensitivity</em>(how much the output changes with a small input change)</li>
+         <li> <em>linearity </em>
+        (how closely the output follows a straight line over the input range)</li> <li> resolution (the smallest change a sensor can detect). </li>
+        </ul>
+        <p>These characteristics help evaluate how reliable and 
+        consistent a sensor is under stable conditions.</p>
+      <p><b>Dynamic characteristics</b> of sensors describe how a sensor responds to inputs that change over time. These include properties like:</p>
+
+<p>
+<ul>
+  <li><em>response time</em> (how quickly the sensor reacts to a change in input),</li>
+  <li><em>rise time</em> (time taken for the sensor output to go from a lower to a higher specified value),</li>
+  <li><em>settling time</em> (how long it takes the output to stabilize after a change),</li>
+  <li><em>frequency response</em> (how well the sensor can follow rapid changes in input).</li>
+</ul>
+</p>
+
+<p>These characteristics are important in applications where the sensor must track or respond to fast-changing signals accurately and efficiently.</p>
+<h3>Sensor Classification</h3>
+<ul>
+  <li><b>Passive vs. Active:</b> Passive sensors operate without an external power source 
+    (e.g., thermocouples), while active sensors require power to function (e.g., ultrasonic sensors).</li>
+  <li><b>Analog vs. Digital:</b> Analog sensors output continuous signals, whereas digital sensors provide discrete, binary signals.</li>
+  <li><b>Scalar vs. Vector:</b> Scalar sensors measure only magnitude (e.g., temperature sensors), while vector sensors measure 
+    both magnitude and direction (e.g., accelerometers).</li>
+</ul>
+<h3>Types of Sensors</h3>
+<ul>
+  <li><b>Electrical Sensor:</b> These can be contact or non-contact. Contact sensors complete a circuit when touched, while non-contact sensors detect metals using induction and non-metals using capacitance.</li>
+
+  <li><b>Light Sensor:</b> Also known as photo sensors, these detect light intensity. A common type is the Light Dependent Resistor (LDR), whose resistance decreases as ambient light increases.</li>
+
+  <li><b>Touch Sensor:</b> These detect touch, such as a finger or stylus. They are mainly of two types: resistive and capacitive, with capacitive being more accurate and widely used today.</li>
+
+  <li><b>Range Sensing:</b> Used to detect how close or far an object is. Short-range sensors use capacitance, inductance, or magnetic techniques, while long-range sensors use radio, sound, or laser waves.</li>
+
+  <li><b>Mechanical Sensor:</b> These involve physical switches like micro-switches that require force to operate. They are simple and often used in basic mechanical systems.</li>
+
+  <li><b>Pneumatic Sensor:</b> These detect proximity by disturbing airflow. They are contact sensors and not suitable for lightweight objects that could be displaced by air.</li>
+
+  <li><b>Optical Sensor:</b> Operates by breaking a light beam aimed at a light-sensitive device like a photocell. These non-contact sensors can be affected by environmental factors like dust, smoke, or bright flashes.</li>
+
+  <li><b>Speed Sensor:</b> Measures the speed of a moving object. Examples include wind speed sensors, speedometers, and ground speed radars.</li>
+
+  <li><b>Temperature Sensor:</b> Converts temperature into an electrical signal (usually voltage), which is proportional to the temperature. Used in both industrial and consumer devices.</li>
+
+  <li><b>PIR Sensor:</b> Passive Infrared (PIR) sensors detect infrared radiation from objects, mainly used for human motion detection and security systems.</li>
+
+  <li><b>Ultrasonic Sensor:</b> Uses high-frequency sound waves to detect distance or presence of objects, similar to SONAR or RADAR systems.</li>
+</ul>
+
+<h2>Actuators</h2>
+<p><b>Actuators</b> are components that carry out physical actions based on signals from a microcontroller or processor. They convert electrical signals into mechanical movement, such as turning a motor, opening a valve, or moving a display.</p>
+<h3>Types of Actuators</h3>
+<ul>
+  <li>
+    <b>Hydraulic Actuators:</b> Use pressurized fluid to create mechanical motion (linear, rotary, or oscillatory). Commonly used in construction equipment for tasks requiring high force.
+    <ul>
+      <li><b>Advantages:</b>
+        <ul>
+          <li>Generate high force and speed.</li>
+          <li>Used in welding, clamping, and vehicle lifting systems.</li>
+        </ul>
+      </li>
+      <li><b>Disadvantages:</b>
+        <ul>
+          <li>Fluid leaks reduce efficiency and require cleanup.</li>
+          <li>Expensive with high maintenance needs.</li>
+          <li>Requires additional components like noise reduction systems.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <b>Pneumatic Actuators:</b> Use compressed air or vacuum to produce motion. Common in robotics, mimicking human finger movement.
+    <ul>
+      <li><b>Advantages:</b>
+        <ul>
+          <li>Low cost and safe in extreme temperatures.</li>
+          <li>Durable, low maintenance, with fast response.</li>
+        </ul>
+      </li>
+      <li><b>Disadvantages:</b>
+        <ul>
+          <li>Pressure loss reduces efficiency.</li>
+          <li>Requires a constantly running air compressor.</li>
+          <li>Compressed air may be polluted and needs filtering.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <b>Electrical Actuators:</b> Convert electrical energy into mechanical torque, often using motors. Example: Solenoid-based electric bells.
+    <ul>
+      <li><b>Advantages:</b>
+        <ul>
+          <li>Quiet, clean, and safe (no fluid leakage).</li>
+          <li>Programmable with high precision control.</li>
+        </ul>
+      </li>
+      <li><b>Disadvantages:</b>
+        <ul>
+          <li>Can be expensive.</li>
+          <li>Performance can be affected by environmental factors.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <b>Other Actuators:</b>
+    <ul>
+      <li><b>Thermal/Magnetic Actuators:</b> Use heat or magnetic energy, e.g., piezo motors with Shape Memory Alloys (SMAs).</li>
+      <li><b>Mechanical Actuators:</b> Convert rotary motion to linear using gears, pulleys, etc. Example: crankshaft.</li>
+      <li><b>Soft Actuators:</b> Include Shape Memory Polymers and Light Activated Polymers for flexible, adaptive movement.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>With the growth of IoT, actuators are increasingly used in industrial, commercial, and home applications alongside sensors.</p>
+<h2>Differences between Sensors and Actuators</h2>
+      <div class="media-placeholder">
+        <img src="differences.jpeg" alt="Sensor Actuator flow">
+      </div>
+
+<h2>Interfacing LED with a push button</h2>
+<h3>ESP32</h3>
+<p><u>Code</u></p>
+<div class="media-placeholder">
+  <img src="button_arduino.jpeg" alt="button interface arduino ide."> 
+</div>
+   <p><u>Video</u></p>
+    <p>
+    <a href="https://youtube.com/shorts/rjXQ5yNwMUo?feature=share">View youtube video</a>
+    </p>
+      </section>
+  
+
+    <section class="takeaways">
+      <h2>My Takeaways</h2>
+      <ul>
+        <li>Learned how to approach new technical concepts methodically.</li>
+        <li>Improved teamwork and collaboration during project execution.</li>
+        <li>Got hands-on with tools that I hadn’t used before.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
